@@ -1,0 +1,67 @@
+<html>
+<head>
+    <title>Registrasi</title>
+</head>
+<body>
+    <b>REGISTRASI ANGGOTA BARU</b><br>
+    <hr width="20%" align="left">
+    <form method="post" accept="#">
+        <table>
+            <tr>
+                <td>Nama:</td>
+                <td><input type="text" name="nama" id="nama" size="20"></td>
+            </tr>
+            <tr>
+                <td>NIM:</td>
+                <td><input type="text" name="nim" id="nim" size="20"></td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin:</td>
+                <td>
+                    <input type="radio" name="jenis_kelamin" id="jk_l" value="Laki-laki">
+                    <label for="jk_l">Laki-laki</label>
+                    <input type="radio" name="jenis_kelamin" id="jk_p" value="Perempuan">
+                    <label for="jk_p">Perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Anak ke-:</td>
+                <td>
+                    <select name="anak_ke" id="anak_ke">
+                        <option value="1">1</option> 
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>   
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Alamat:</td>
+                <td><textarea name="alamat" id="alamat" cols="20" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Hobi:</td>
+                <td>
+                    <input type="checkbox" name="hobi" id="hobi1" value="Baca Buku">
+                    <label for="hobi1">Baca Buku</label><br>
+                    <input type="checkbox" name="hobi" id="hobi2" value="Jalan-jalan">
+                    <label for="hobi2">Jalan-jalan</label><br>
+                    <input type="checkbox" name="hobi" id="hobi3" value="Olah Raga">
+                    <label for="hobi3">Olah Raga</label>  
+                </td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" name="daftar" id="daftar" value="Daftar">
+                    <input type="reset" name="bersihkan" id="bersihkan" value="Bersihkan">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
