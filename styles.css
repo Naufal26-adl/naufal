@@ -1,0 +1,46 @@
+body {
+    font-family: 'Times New Roman';
+}
+
+h1 {
+    text-align: center;
+    color: rgb(76, 0, 255);
+    font-size: 16;
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-size: 12;
+}
+
+thead {
+    background-color: #62c758;
+    font-size: 26;
+}
+
+
+tfoot {
+    background-color: #aaddb1;
+    font-weight: bold;
+    font-size: 20;
+}
+.odd{
+    background-color: #fff700;
+}
+.even{
+    background-color: rgb(247, 189, 247);
+}
+.namaitemdansatuan{
+    text-align: left;
+}
+.hargasatuandanjumlah{
+    text-align: right;
+}
